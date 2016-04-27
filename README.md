@@ -23,7 +23,7 @@ To run the demo program you will need the following hardware:
 
 1. The sample program assumes you have a Raspberry Pi Model A, B, 2, or 3 running latest version of Raspian OS.
 2. The best way to run the demo is to format an SD card (8GB or larger) and then perform a clean install of the latest version of Raspian by using NOOBS. You can get that [here](https://www.raspberrypi.org/downloads/noobs/).
-3. For best results, you also need to install a PiBrella board, which attaches to the Pi's GPIO pins and provides the LEDs and button. You can read about the PiBrella board [here](www.pibrella.com). You can run the demo without a PiBrella, but it will have very limited functionality.
+3. For best results, you also need to install a PiBrella board, which attaches to the Pi's GPIO pins and provides the LEDs and button. You can read about the PiBrella board [here](http://www.pibrella.com). You can run the demo without a PiBrella, but it will have very limited functionality.
 4. Keyboard, mouse, and display connected to your Pi so you can view console messages as the program operates.
 
 ## Set up and Operation
