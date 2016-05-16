@@ -1,8 +1,8 @@
 # mbed-client-rpi-executables
-Demo program that connects a Raspberry Pi with attached PiBrella board to Zatar
+Demo program that connects a Raspberry Pi with attached PiBrella board to [Zatar](http://www.zatar.com)
 
 ## Summary of Features
-* Connects your Pi to zatar as a device via our LwM2M Device API using the ARM mBed Client
+* Connects your Pi to zatar as a device via our LwM2M Device API using the [ARM mBed Client](https://www.mbed.com/en/development/software/mbed-client/)
 * Provides a universal Avatar for your Pi on Zatar, and makes it available via our Device Portal, the Zatar iPhone app, or our REST API
 * Exposes three LEDs and one Button from PiBrella expansion board and makes them accessible via Zatar
 * You can toggle any of the LEDs from the API, Device Portal, iPhone App.
