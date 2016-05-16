@@ -38,7 +38,11 @@ To run the demo program you will need the following hardware:
 3. Then cd to the directory containing the executable files.
 4. To invoke mbed-client directly, type the following at the command prompt:
   
+<<<<<<< HEAD
  >./mbed-client-rpi-zatar
+=======
+ >sudo ./mbed-client-rpi-zatar
+>>>>>>> 7e554dfa398eec3802ba6a03de4b1efa6ca8f64b
     
 5. When the program runs, it will display its progress on the console. After it has successfully registered your Pi on Zatar, it will display "Success!" and output the serial number of the Pi. Make sure you keep this number handy because you'll need it in the next step. 
 6. After your Pi is connected to Zatar, you need go to www.zatar.com, log into your account, and perform the "add device" function from your Home World to add your Pi to your account by following the steps below:
@@ -63,7 +67,11 @@ This program will simply watch for the execution of the main program, and if it 
 
 To invoke watchDog, type the following at the command prompt (this assumes both binaries are located in the SAME directory!):
     
+<<<<<<< HEAD
 > ./watchDog ./mbed-client-rpi-zatar
+=======
+>sudo ./watchDog ./mbed-client-rpi-zatar
+>>>>>>> 7e554dfa398eec3802ba6a03de4b1efa6ca8f64b
     
  You can invoke this file at any time before or after the first file is invoked. If you start watchDog first, it will detect mbed-client is not running and start it for you. NOTE: To invoke watchDog, you must type the name of the mbed-client program (full name and path) as a command line argument.
   
